@@ -1,0 +1,55 @@
+body {
+  background: radial-gradient(lightblue, lightgreen);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+body .result-container {
+  background: rgba(0, 0, 0, 0.65);
+  height: 3rem;
+  width: 15rem;
+  position: absolute;
+  top: 35%;
+  border-radius: 5px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .result-container.correct {
+  background: green;
+}
+
+body .result-container.danger {
+  background: red;
+}
+
+body form {
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 20px;
+  border-radius: 5px;
+  width: 18rem;
+}
+
+body form input {
+  padding: 18px;
+  width: 15rem;
+}
+/*# sourceMappingURL=style.css.map */
